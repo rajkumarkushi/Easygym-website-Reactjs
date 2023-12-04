@@ -1,0 +1,20 @@
+.custom {
+    margin: 200px auto;
+}
+
+.custom .box{
+    overflow: hidden;
+}
+
+.custom img{
+    height: 400px;
+    /* object-fit: cover; */
+   object-fit: cover;
+   cursor: pointer;
+   overflow: hidden;
+}
+
+.custom img:hover{
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}

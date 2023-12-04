@@ -1,0 +1,51 @@
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border:2px solid white
+    }
+
+    .navbar.active{
+        background: black;
+    }
+    .navbar-brand{
+        font-size: 3em;
+        padding: 0px 30px; 
+         color:white;
+    }
+ 
+    .navbar-brand span{
+        color: red;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+     .navbar-nav{
+        padding: 0px 60px;
+        margin-top: 40px;
+      }
+    
+      .nav-link{
+        color:white;
+        margin-left: 8px;
+      }
+
+      .nav-link::after{
+        content:"";
+        background: red;
+        height: 2px;
+        width: 0px; 
+        display: block; 
+        position:absolute;
+        transition: 0.3s;
+      }
+    
+      .nav-link:hover{
+        color: red;
+      }
+
+      .nav-link:hover::after {
+
+        width:40px
+      }

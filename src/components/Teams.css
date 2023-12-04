@@ -1,0 +1,47 @@
+.teams .col-sm-4 {
+    overflow: hidden;
+    position: relative;
+}
+.teams {
+    margin-bottom: 200px;
+    position: relative;
+
+}
+
+.teams img{
+    height: 450px;
+    object-fit: cover;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.teams img:hover{
+    -o-transform:scale(1.1);
+    transform:scale(1.1)
+}
+
+.teams .content{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform:translate(-50%,-50%);
+    color:white;
+    height: 20%;
+     width: 84%; 
+    background: black;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+}
+
+.teams .content h6{
+    font-size: 30px;
+    font-weight: 600;
+    /* margin-bottom: 40px; */
+}
+
+.teams .col-sm-4:hover .content{
+    opacity:1
+
+}
+

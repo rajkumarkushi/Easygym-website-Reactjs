@@ -1,0 +1,70 @@
+.header{
+    position: relative;
+}
+
+.header img{
+    height: 90vh;
+    width: 100%;
+    object-fit:cover ;
+}
+
+.header .Overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.header .content{
+    position: absolute;
+    top:99%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+
+.header .content h6{
+    font-size: 40px;
+}
+
+.btn{
+    width:300px;
+    border:2px solid red;
+    color:red;
+    border-radius: red;
+    position: relative;
+    z-index:1
+}
+
+.btn::after{
+    content:"";
+    background: red;
+    display: block;
+    position: absolute;
+    height:100%;
+    width:0px;
+    top:0;
+    border-radius: 15px;
+    left: 0;
+    transition: 0.3s;
+    z-index:-1
+
+
+}
+.btn:hover{
+    color: white;
+}
+
+ .btn:hover::after{
+    width:100%;
+} 
+
+.header .btn{
+    margin-top: 30px;
+}

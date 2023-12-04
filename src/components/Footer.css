@@ -1,0 +1,42 @@
+footer{
+    background: black;
+    padding: 20px;
+}
+
+footer .container{
+    color: white;
+    border-bottom: 2px solid white;
+}
+footer .container h6{
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px auto;
+}
+
+
+footer .container i{
+    display: block;
+    margin: 10px auto;
+}
+footer .container a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px; ;
+}
+
+footer .container i a:hover{
+    color:red; 
+padding-left: 25px;
+font-weight: 500;
+}
+
+footer .customfooter{
+    text-align: center;
+    padding: 20px;
+}
+
+footer .customfooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
